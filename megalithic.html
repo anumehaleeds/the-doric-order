@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>The Doric Order | Home</title>
+<!--style linking start-->
+<meta name="description" content="Our website offers a comprehensive journey through the evolution of architectural design, iconic structures, and influential architects">
+<meta name="keywords" content="architecture styles, architectural history, ancient architecture, modern architecture, architectural evolution, iconic structures, influential architects">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.cdnfonts.com/css/helvetica-255" rel="stylesheet">
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/butler" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="images/favicon.svg">
+<!--style linking end-->
+</head>
+
+<body>
+   
+    <!--header start-->
+    <header>
+        <a aria-label="skip" href="#content"> Skip to Content </a> <!--button hidden-->
+        <img src="images/the-doric-order-logo.svg" width="188" height="88.16" alt="the doric order logo"> <!--website logo-->
+      
+        <!--navigation start--> 
+        <nav aria-label="primary">
+          <ul>
+            <li> <a href = "#"> Home </a></li>
+            <li> <a href = "#"> Architects </a></li>
+            <li> <a href = "#"> Explore </a></li>
+            <li> <a href = "#"> About </a></li>
+            <li> <a href = "#"> Contact </a></li>
+          </ul>
+        </nav>
+        <!--navigation end--> 
+          
+    </header>
+    <!--header end-->
+
+    <main id="style">
+        <h1> Megalithic </h1>
+        <h2> 2500 BC - AD 200 </h2>
+        
+        <div id="hero-section">
+            <figure>
+                <picture>
+                    <source srcset="images/stonehenge.svg" media="(max-width: 700px)"/> <!-- Small screen image -->
+                    <source srcset="images/stonehenge-large.svg" media="(min-width: 700px)"/>
+                    <!-- Large screen image -->
+                    <img src="images/stonehenge-large.svg" width="1373" height="727" alt="Stonehenge, England illustration"> <!-- Fallback image -->
+                </picture>
+            </figure>
+            <figcaption> Stonehenge, England </figcaption>
+            <button onclick="openPopup()">Enlarge Picture</button> <!-- Trigger button to open the popup -->
+        </div>
+
+        <!-- Popup container -->
+        <div class="popup-container" id="popup">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <img src="images/stonehenge-large.svg" width="1373" height="727" alt="Stonehenge enlarged picture" class="popup-image" id="popup-image">
+        </div>
+            
+        <section id="about-style">
+        <h3> Introduction </h3>
+        <p> Megalithic architecture refers to the construction of large stone structures or monuments using massive stones, often without the use of mortar or other binding materials. These structures are typically associated with prehistoric societies. The term "megalith" itself, derived from the Greek words "mega" (meaning large) and "lithos" (meaning stone), aptly captures the essence of this architectural form. </p>
+
+        <h3> Orientation </h3>
+        <p> Many megalithic structures exhibit specific alignments or orientations. Some are aligned with astronomical events, such as the solstices or equinoxes, suggesting possible astronomical or calendrical significance. Building megalithic structures included methods for quarrying, transporting, and lifting the massive stones. The exact techniques used remain a subject of study and speculation. </p>
+        </section>
+
+        <section id="features">
+            <h3> Unique features of this style: </h3>
+            <figure>
+                <img src="images/dolmen.svg" width="400" height="400" alt="Dolmen illustration">
+                <figcaption>
+                    <h4> Dolmens </h4>
+                    <p> These are chambered tombs consisting of two or more upright stones (orthostats) supporting a large horizontal capstone. </p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/menhirs.svg" width="400" height="400" alt="Menhir illustration">
+                <figcaption>
+                    <h4> Menhirs </h4>
+                    <p> A menhir is a single, tall, upright stone, often with a pointed or rounded top, that is typically set vertically into the ground. The term "menhir" means long. </p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/cromlechs.svg" width="400" height="400" alt="Cromlechs illustration">
+                <figcaption>
+                    <h4> Cromlechs </h4>
+                    <p> A cromlech is  characterized by a circular or oval formation of upright standing stones, often arranged in a concentric or radial pattern. </p>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section id="around-world">
+            <h3> Find Megalithic structures around the world: </h3>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zQct7zsKtgmJ1TwDEkPOcIq473JBtW0&ehbc=2E312F&noprof=1" width="640" height="480"></iframe> <!--iframe map-->
+        </section>
+
+        <section id="structures">
+            <h3> Megalithic Architecture Structures: </h3>
+            <div id="wrapper">
+                <figure>
+                    <a href="#">
+                        <img src="images/stonehenge-image.png" width="400" height="295" alt="Stonehenge, England">
+                        <figcaption>
+                            <h5> Stonehenge <em> England </em> </h5>
+                        </figcaption>
+                    </a>
+                </figure>
+
+                <figure>
+                    <a href="#">
+                        <img src="images/carnac-stones-image.png" width="400" height="295" alt="Carnac Stones, France">
+                        <figcaption>
+                            <h5> Carnac Stones <em> France </em> </h5>
+                        </figcaption>
+                    </a>
+                </figure>
+
+                <figure>
+                    <a href="#">
+                        <img src="images/nregrange-image.png" width="400" height="295" alt="Newgrange, Ireland">
+                        <figcaption>
+                            <h5> Newgrange <em> Ireland </em> </h5>
+                        </figcaption>
+                    </a>
+                </figure>
+
+                <figure>
+                    <a href="#">
+                        <img src="images/machu-picchu-image.png" width="400" height="295" alt="Machu Picchu, Peru">
+                        <figcaption>
+                            <h5> Machu Picchu <em> Peru </em> </h5>
+                        </figcaption>
+                    </a>
+                </figure>
+
+                <figure>
+                    <a href="#">
+                        <img src="images/teotihuacan-image.png" width="400" height="295" alt="Teotihuacan, Mexico">
+                        <figcaption>
+                            <h5> Teotihuacan <em> Mexico </em> </h5>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <!--footer start-->
+
+    <footer>
+
+        <img src="images/the-doric-order-logo.svg" width="188" height="88.16" alt="the doric order logo"> <!--website logo-->
+        <p> &copy;2023 anumehagupta - All Rights Reserved </p>
+        <!--footer menu start-->
+        <nav aria-label="secondary">
+            <section id="general">
+                <h4> General </h4>
+                <ul>
+                    <li> <a href="#"> Home </a></li>
+                    <li> <a href="#"> Architects </a></li>
+                    <li> <a href="#"> About Us </a></li>
+                    <li> <a href="#"> Contact Us </a></li>
+                </ul>
+            </section>
+
+            <section id="services">
+                <h4> Services </h4>
+                <ul>
+                    <li> <a href="#"> FAQ </a></li>
+                    <li> <a href="#"> Privacy Policy </a></li>
+                </ul>
+            </section>
+
+            <section id="social-media">
+                <h4> Follow Us </h4>
+                <ul>
+                    <li> <img src="images/twitter-icon.svg" width="30" height="30" alt="twitter or x icon"><a href="#"> X / Twitter </a></li>
+                    <li> <img src="images/instagram-icon.svg" width="30" height="30" alt="intsagram icon"><a href="#"> Instagram </a></li>
+                </ul>
+            </section>
+        </nav>
+        <!--footer menu end-->
+
+        <!--subscribe form start-->
+        <div id="form-wrapper">
+            <form>
+                <h3> Subscribe </h3>
+                <input type="email" id="email" name="email" placeholder="Type your email">
+                <button> <img src="images/arrow-right.svg" width="30" height="30" alt="confirm email"> </button>
+            </form>
+        </div>
+        <!--subscribe form end-->
+
+    </footer>
+    <!--footer end-->
+
+
+    <!--script tag start-->    
+    <script src="js/toggle.js"></script> 
+    <!--script tag end-->
+</body>
+
+</html>
