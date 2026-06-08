@@ -1091,6 +1091,13 @@ button {
   #content ul li:nth-child(odd) a figure {
     display: flex;
     justify-content: flex-end;
+     width: 100%;
+  }
+
+   #content ul li:nth-child(even) a figure {
+    display: flex;
+    justify-content: flex-end;
+     width: 100%;
   }
 
   #content ul {
